@@ -9,7 +9,6 @@ G = "\033[32m"  # Green
 W = "\033[0m"   # Reset to White/Default
 
 
-token = "8713699671:AAHwNw3WtYaxQIegAWFjI_83CO5opuZhV9Y"
 with open("Message.txt", "r", encoding="utf-8", errors="ignore") as f:
     msg = f.read()
 
