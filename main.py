@@ -44,9 +44,9 @@ def send(lines):
         os.system(f"title : [+] RMYEN TELEGRAM SENDER - GOOD : {sent}  BAD : {notSent}")
         print(f"{R}[-] {W}{i} Not sent.")
 
-api_id = "32197656"
-api_hash = "915e75fd81437e420ac4e4ef1fbd37ef"
-phone = "+21650894631"
+api_id = ""
+api_hash = ""
+phone = ""
 
 def Connect():
     with TelegramClient(phone, api_id, api_hash) as client:
